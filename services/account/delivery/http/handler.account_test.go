@@ -9,8 +9,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/oniharnantyo/golang-backend-example/domain"
-	account_usecase_mock "github.com/oniharnantyo/golang-backend-example/services/account/usecase/mock"
+	"github.com/EzeAlarcon/golang-backend-example/domain"
+	account_usecase_mock "github.com/EzeAlarcon/golang-backend-example/services/account/usecase/mock"
 
 	"github.com/gin-gonic/gin"
 
