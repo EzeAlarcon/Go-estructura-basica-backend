@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/oniharnantyo/golang-backend-example/util"
+	"github.com/EzeAlarcon/golang-backend-example/util"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
