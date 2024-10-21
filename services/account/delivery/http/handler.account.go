@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/oniharnantyo/golang-backend-example/util"
+	"github.com/EzeAlarcon/golang-backend-example/util"
 
-	"github.com/oniharnantyo/golang-backend-example/middleware"
+	"github.com/EzeAlarcon/golang-backend-example/middleware"
 
-	"github.com/oniharnantyo/golang-backend-example/domain"
+	"github.com/EzeAlarcon/golang-backend-example/domain"
 
 	"github.com/gin-gonic/gin"
 
