@@ -3,7 +3,7 @@ package repository_customer_mock
 import (
 	"context"
 
-	"github.com/oniharnantyo/golang-backend-example/domain"
+	"github.com/EzeAlarcon/golang-backend-example/domain"
 
 	"github.com/stretchr/testify/mock"
 )
