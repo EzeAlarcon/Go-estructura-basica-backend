@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/oniharnantyo/golang-backend-example/domain"
-	"github.com/oniharnantyo/golang-backend-example/util"
+	"github.com/EzeAlarcon/golang-backend-example/domain"
+	"github.com/EzeAlarcon/golang-backend-example/util"
 )
 
 type accountRepository struct {
