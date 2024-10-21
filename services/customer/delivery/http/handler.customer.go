@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/oniharnantyo/golang-backend-example/domain"
+	"github.com/EzeAlarcon/golang-backend-example/domain"
 
 	"github.com/pkg/errors"
 
