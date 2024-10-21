@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/oniharnantyo/golang-backend-example/domain"
-	customer_usecase_mock "github.com/oniharnantyo/golang-backend-example/services/customer/usecase/mock"
+	"github.com/EzeAlarcon/golang-backend-example/domain"
+	customer_usecase_mock "github.com/EzeAlarcon/golang-backend-example/services/customer/usecase/mock"
 
 	"github.com/sirupsen/logrus"
 
