@@ -3,7 +3,7 @@ package domain
 import (
 	"context"
 
-	"github.com/oniharnantyo/golang-backend-example/util"
+	"github.com/EzeAlarcon/golang-backend-example/util"
 )
 
 type Customer struct {
