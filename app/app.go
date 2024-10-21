@@ -14,22 +14,22 @@ import (
 	"github.com/go-redis/redis/v8"
 
 	"github.com/gin-gonic/gin"
-	"github.com/oniharnantyo/golang-backend-example/database"
-	"github.com/oniharnantyo/golang-backend-example/database/migration"
-	"github.com/oniharnantyo/golang-backend-example/domain"
+	"github.com/EzeAlarcon/golang-backend-example/database"
+	"github.com/EzeAlarcon/golang-backend-example/database/migration"
+	"github.com/EzeAlarcon/golang-backend-example/domain"
 	"github.com/pkg/errors"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 
-	delivery_http_account "github.com/oniharnantyo/golang-backend-example/services/account/delivery/http"
-	repository_account "github.com/oniharnantyo/golang-backend-example/services/account/repository"
-	usecase_account "github.com/oniharnantyo/golang-backend-example/services/account/usecase"
-	repository_auth "github.com/oniharnantyo/golang-backend-example/services/auth/repository"
-	usecase_auth "github.com/oniharnantyo/golang-backend-example/services/auth/usecase"
-	delivery_http_customer "github.com/oniharnantyo/golang-backend-example/services/customer/delivery/http"
-	repository_customer "github.com/oniharnantyo/golang-backend-example/services/customer/repository"
-	usecase_customer "github.com/oniharnantyo/golang-backend-example/services/customer/usecase"
+	delivery_http_account "github.com/EzeAlarcon/golang-backend-example/services/account/delivery/http"
+	repository_account "github.com/EzeAlarcon/golang-backend-example/services/account/repository"
+	usecase_account "github.com/EzeAlarcon/golang-backend-example/services/account/usecase"
+	repository_auth "github.com/EzeAlarcon/golang-backend-example/services/auth/repository"
+	usecase_auth "github.com/EzeAlarcon/golang-backend-example/services/auth/usecase"
+	delivery_http_customer "github.com/EzeAlarcon/golang-backend-example/services/customer/delivery/http"
+	repository_customer "github.com/EzeAlarcon/golang-backend-example/services/customer/repository"
+	usecase_customer "github.com/EzeAlarcon/golang-backend-example/services/customer/usecase"
 )
 
 func Run() {
